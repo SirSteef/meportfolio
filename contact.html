@@ -379,6 +379,7 @@
           .then(function () {
             form.reset();
             setTimeout(() => {
+              result.innerHTML = "Email sent successful!";
               result.style.display = "none";
             }, 3000);
           });
